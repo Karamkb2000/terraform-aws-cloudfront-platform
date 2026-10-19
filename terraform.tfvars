@@ -1,0 +1,10 @@
+region           = "eu-west-1"
+project          = "webstack"
+environment      = "dev"
+vpc_cidr         = "10.30.0.0/16"
+az_count         = 2
+instance_type    = "t3.micro"
+min_size         = 2
+max_size         = 4
+desired_capacity = 2
+cpu_target       = 50
